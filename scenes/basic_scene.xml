@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude>
   <asset>
     <texture name="skybox" type="skybox" builtin="gradient" rgb1=".08 .09 .10" rgb2="0 0 0" width="800" height="800" mark="random" markrgb=".8 .8 .8"/>

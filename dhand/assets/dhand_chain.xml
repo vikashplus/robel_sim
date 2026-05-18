@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude>
         <body name="palm" pos="0 0 0.01" childclass="dHand">
           <geom euler="1.57 0 1.57" mesh="motor" pos="0.012 0 0.112"/>

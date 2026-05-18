@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude>
   <!-- STAND -->
   <body childclass="dHand" name="dHand-mount" euler="0 0 1.57">
@@ -32,7 +31,7 @@
     <geom pos="0.109 -0.083 0.215" size="0.019 0.019 0.205" type="box"/>
     <geom pos="0.109 0.083 0.215" size="0.019 0.019 0.205" type="box"/>
     <geom pos="0.109 0 0.439" size="0.019 0.102 0.019" type="box"/>
-    
+
     <geom class="phys_metal" pos="-0.019 -0.083 0.029" size="0.109 0.019 0.019" type="box"/>
     <geom class="phys_metal" pos="0.109 0 0.029" size="0.019 0.064 0.019" type="box"/>
     <geom class="phys_metal" euler="0 0.698 0" pos="-0.018 0.083 0.163" size="0.019 0.019 0.134" type="box"/>
