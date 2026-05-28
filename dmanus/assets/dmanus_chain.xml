@@ -16,6 +16,7 @@
           <!--Plate-->
           <geom name="plate1_mesh" mesh="plate" pos="0 -0.0255 0.1032"/>
           <geom name="plate2_mesh" mesh="plate" pos="0 0.0235 0.1032"/>
+          <site name="grasp" pos="0 -.06 .1" type="sphere" size="0.020"/>
 
           <!-- THUMB FINGER -->
           <body name="thumb_finger" pos="0.0343 0.0015 0.027" euler="0 1.92 0">
@@ -50,6 +51,7 @@
                     <joint axis="1 0 0" name="TF_DIP" class="PIP"/>
                     <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
                     <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
+                    <site name="TFtip" type="sphere" pos="0 -.0125 0.08" size="0.01" rgba="1 .3 .3 1"/>
                   </body>
                 </body>
               </body>
@@ -79,6 +81,7 @@
                   <joint axis="1 0 0" name="FF_PIP" class="PIP"/>
                   <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
                   <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
+                  <site name="FFtip" type="sphere" pos="0 -.0125 0.08" size="0.01" rgba="1 .3 .3 1"/>
                 </body>
               </body>
             </body>
@@ -107,6 +110,7 @@
                   <joint axis="1 0 0" name="PF_PIP" class="PIP"/>
                   <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
                   <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
+                  <site name="PFtip" type="sphere" pos="0 -.0125 0.08" size="0.01" rgba="1 .3 .3 1"/>
                 </body>
               </body>
             </body>

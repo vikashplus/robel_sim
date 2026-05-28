@@ -1,4 +1,3 @@
-<mujocoinclude>
 <!--
  ~ Copyright 2019 The ROBEL Authors.
  ~
@@ -14,16 +13,13 @@
  ~ See the License for the specific language governing permissions and
  ~ limitations under the License.
  -->
- 
-  <actuator>
-    <position joint="WR_ADB" class="WR" name="WR_ADB" ctrlrange="-0.436 0.436"/>
-    <position joint="WR_UD" class="WR" name="WR_UD" ctrlrange="-0.436 0.436"/>
-  </actuator>
-  <sensor>
-    <jointpos joint="WR_ADB" name="WR_ADB_pos"/>
-    <jointpos joint="WR_UD" name="WR_UD_pos"/>
-    <jointvel joint="WR_ADB" name="WR_ADB_vel"/>
-    <jointvel joint="WR_UD" name="WR_UD_vel"/>
-  </sensor>
-</mujocoinclude>
 
+<mujoco model="dmanus">
+  <compiler meshdir="../"/>
+  <include file="assets/dmanus_dependencies9.xml"/>
+  <worldbody>
+    <body name="dmanus">
+      <include file="assets/dmanus_chain9.xml"/>
+    </body>
+  </worldbody>
+</mujoco>

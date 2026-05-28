@@ -87,4 +87,40 @@
     <position joint="TF_PIP" name="TF_PIP" class="PIP"/>
     <position joint="TF_DIP" name="TF_DIP" class="DIP"/>
   </actuator>
+  <sensor>
+    <!-- Joint position sensors -->
+    <jointpos joint="FF_ADB" name="FF_ADB_pos"/>
+    <jointpos joint="FF_MCP" name="FF_MCP_pos"/>
+    <jointpos joint="FF_PIP" name="FF_PIP_pos"/>
+    <jointpos joint="FF_DIP" name="FF_DIP_pos"/>
+    <jointpos joint="MF_ADB" name="MF_ADB_pos"/>
+    <jointpos joint="MF_MCP" name="MF_MCP_pos"/>
+    <jointpos joint="MF_PIP" name="MF_PIP_pos"/>
+    <jointpos joint="MF_DIP" name="MF_DIP_pos"/>
+    <jointpos joint="PF_ADB" name="PF_ADB_pos"/>
+    <jointpos joint="PF_MCP" name="PF_MCP_pos"/>
+    <jointpos joint="PF_PIP" name="PF_PIP_pos"/>
+    <jointpos joint="PF_DIP" name="PF_DIP_pos"/>
+    <jointpos joint="TF_MCP" name="TF_MCP_pos"/>
+    <jointpos joint="TF_ADB" name="TF_ADB_pos"/>
+    <jointpos joint="TF_PIP" name="TF_PIP_pos"/>
+    <jointpos joint="TF_DIP" name="TF_DIP_pos"/>
+    <!-- Joint velocity sensors -->
+    <jointvel joint="FF_ADB" name="FF_ADB_vel"/>
+    <jointvel joint="FF_MCP" name="FF_MCP_vel"/>
+    <jointvel joint="FF_PIP" name="FF_PIP_vel"/>
+    <jointvel joint="FF_DIP" name="FF_DIP_vel"/>
+    <jointvel joint="MF_ADB" name="MF_ADB_vel"/>
+    <jointvel joint="MF_MCP" name="MF_MCP_vel"/>
+    <jointvel joint="MF_PIP" name="MF_PIP_vel"/>
+    <jointvel joint="MF_DIP" name="MF_DIP_vel"/>
+    <jointvel joint="PF_ADB" name="PF_ADB_vel"/>
+    <jointvel joint="PF_MCP" name="PF_MCP_vel"/>
+    <jointvel joint="PF_PIP" name="PF_PIP_vel"/>
+    <jointvel joint="PF_DIP" name="PF_DIP_vel"/>
+    <jointvel joint="TF_MCP" name="TF_MCP_vel"/>
+    <jointvel joint="TF_ADB" name="TF_ADB_vel"/>
+    <jointvel joint="TF_PIP" name="TF_PIP_vel"/>
+    <jointvel joint="TF_DIP" name="TF_DIP_vel"/>
+  </sensor>
 </mujocoinclude>
