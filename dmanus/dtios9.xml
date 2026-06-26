@@ -1,0 +1,9 @@
+<mujoco model="dtrios">
+  <compiler meshdir="../"/>
+  <include file="assets/dmanus_dependencies9.xml"/>
+  <worldbody>
+    <body name="dmanus">
+      <include file="assets/dtrios_chain9.xml"/>
+    </body>
+  </worldbody>
+</mujoco>
