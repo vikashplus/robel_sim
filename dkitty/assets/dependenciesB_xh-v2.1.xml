@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude>
   <actuator>
     <position name="B:FRJ10" joint="B:FRJ10" class="dkitty" ctrlrange="-3.419 0.279"/>

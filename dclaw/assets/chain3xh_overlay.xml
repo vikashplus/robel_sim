@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude>
   <body name="_dclaw" euler="3.14 0 0" childclass="overlay">
     <geom mesh="acrylic_circle"/>

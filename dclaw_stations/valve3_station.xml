@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujoco model="valve3_station">
   <include file="../scenes/basic_scene.xml"/>
   <include file="../dclaw/assets/dependencies3xh.xml"/>

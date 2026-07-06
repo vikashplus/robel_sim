@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude name="valve4">
   <body name="valve_base" pos=".0 0.00 0.01" euler="0 0 0" childclass="station">
     <geom class="station_viz_plastic_transparent" type="box" size=".031 .031 .005" pos=".0125 0 -.005"/>

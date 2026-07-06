@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujoco model="dkitty-v2.1">
   <include file="../scenes/basic_scene.xml"/>
   <include file="assets/dependenciesA_xh-v2.1.xml"/>

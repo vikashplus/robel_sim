@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude>
   <body childclass="dkitty" name="B:dkitty">
     <!-- Torso -->

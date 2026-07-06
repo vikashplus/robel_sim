@@ -14,7 +14,6 @@
  ~ limitations under the License.
  -->
 
-<?xml version="1.0"?>
 <mujocoinclude>
   <compiler angle="radian" inertiafromgeom="auto" inertiagrouprange="4 5"/>
   <option timestep="0.0025"/>
